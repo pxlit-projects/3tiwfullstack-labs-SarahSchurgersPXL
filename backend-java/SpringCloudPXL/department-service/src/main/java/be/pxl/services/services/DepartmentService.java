@@ -32,7 +32,7 @@ public class DepartmentService implements IDepartmentService {
 
     @Override
     public Object getDepartmentAndEmployees(long organizationId) {
-        return null;
+        return departmentRepository.findByOrganizationWithEmployees(organizationId);
     }
 
     @Override

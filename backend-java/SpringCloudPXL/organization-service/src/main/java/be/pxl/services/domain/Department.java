@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 
 import java.beans.JavaBean;
 import java.util.List;
-
+@Builder
 @JavaBean
 public class Department {
 

@@ -7,7 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.beans.JavaBean;
-
+@Builder
 @JavaBean
 public class Employee {
 

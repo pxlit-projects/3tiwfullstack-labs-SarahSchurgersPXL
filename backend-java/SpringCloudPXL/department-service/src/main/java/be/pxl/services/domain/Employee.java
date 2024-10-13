@@ -1,14 +1,13 @@
 package be.pxl.services.domain;
 
-import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
+
 import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+
 
 import java.beans.JavaBean;
 
 @JavaBean
+@Builder
 public class Employee {
 
 
@@ -19,4 +18,5 @@ public class Employee {
     private String name;
     private int age;
     private String position;
+
 }
